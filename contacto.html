@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--SEO-->
+  <!--keywords-->
+  <meta name="keywords" content="Sitio Web que promueve y divulga la adopción responsable de mascotas">
+  <meta name="description" content="contacto con refugios y asociaciones rescatistas">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="imagen/icono1.png">
+  <!--Iconos-->
+  <script src="https://kit.fontawesome.com/71824f655a.js" crossorigin="anonymous"></script>
+  <!--Estilos de Googlr Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Formulario de Contacto/Información de asociaciones para adoptar.</title>
+</head>
+
+<body>
+  <header>
+    <h1>Proyecto Hogar x Siempre</h1>
+
+    <!--Menú Vertical-->
+    <label for="menu-control" class="hamburger">
+      <i class="hamburger__icon"></i>
+      <i class="hamburger__icon"></i>
+      <i class="hamburger__icon"></i>
+    </label>
+
+    <input type="checkbox" id="menu-control" class="menu-control">
+
+    <aside class="sidebar">
+
+      <nav class="sidebar__menu">
+        <a href="index.html">Inicio</a>
+        <a href="adopcion.html">Por qué adoptar?</a>
+        <a href="salud.html">Salud</a>
+        <a href="historias.html">Experiencias</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+
+      <label for="menu-control" class="sidebar__close"></label>
+
+      <ul>
+        <li>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+
+    </aside>
+  </header>
+
+  <section>
+
+    <h2>Formas de Contacto y Fuentes de Información</h2>
+
+    <!--Formulario Contacto-->
+    <div class="contenedor">
+      <div class="wrapper">
+        <div class="info-empresa">
+          <h3 class="contactos">Contacto</h3>
+          <p class="contactos">Si estás interesado en saber más sobre adopciones o crianza responsable, escribinos que
+            nosotros te asesoramos!</p>
+        </div>
+        <div class="contacto">
+          <h3 class="contactos">Enviar Correo</h3>
+          <form class="formulario">
+            <p class="contactos">
+              <label>Nombre</label>
+              <input type="text" name="nombre" required>
+            </p>
+            <p class="contactos">
+              <label>Asunto</label>
+              <input type="text" name="asunto">
+            </p>
+            <p class="contactos">
+              <label>Correo</label>
+              <input type="email" name="email" required>
+            </p>
+            <p class="contactos">
+              <label>Teléfono</label>
+              <input type="text" name="teléfono" required>
+            </p>
+            <p class="full contactos">
+              <label>Mensaje</label>
+              <textarea name="mensaje" required></textarea>
+            </p>
+            <p class="full contactos">
+              <button class="boton-enviar">Enviar</button>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <p class="fondo-texto">
+      Si deseas contactarte directamente con algún refugio/asociación protectora, a continuación verás los sitios web de algunas organizaciones rescatistas.
+    </p>
+    <p class="fondo-texto">
+      Te recordamos que este sitio solo promueve la adopción y crianza responsable, <span class="textoResaltado"> NO
+        ACEPTAMOS DONACIONES </span>, como tampoco nos encargamos de tramitar adopciones.
+    </p>
+    <p class="fondo-texto">Para donaciones y concretar un trámite de adopción, contactate con estas organizaciones:</p>
+  </section>
+
+  <section class="carrusel-contacto">
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <iframe src="https://www.flojitosdepapeles.org/" class="webContacto rounded" width="100%" height="550"></iframe>
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="fondo-texto titulo-carrusel">Flojitos de Papeles</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <iframe src="https://bichofeliz.org/" class="webContacto rounded" width="100%" height="550"></iframe>
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="fondo-texto titulo-carrusel">Bicho Felíz</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <iframe src="https://www.fundaciondegatitos.org.ar/" class="webContacto rounded" width="100%" height="550"></iframe>
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="fondo-texto titulo-carrusel">Fundación de Gatitos</h5>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </section>
+
+  <footer class="redesFooter">
+    <ul>
+      <li class="redes-contacto">
+        <a href="#">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      <li class="redes-contacto">
+        <a href="#">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+      <li class="redes-contacto">
+        <a href="#">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+      <li class="footer-p">
+        <a href="https://silvinitaf.github.io/TheZoomProject/" class="noSubrayado">
+          Copyright 2021 By TheZoomProject
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous">
+  </script>
+
+</body>
+
+</html>
